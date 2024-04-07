@@ -117,7 +117,7 @@ function TakeawayItem(props: TakeawayItemProps) {
         <span>&middot;</span>
         <p>{props.date}</p>
       </div>
-      <p className="mt-4 xs:text-sm">{props.summary}</p>
+      <p className="mt-4 whitespace-break-spaces xs:text-sm">{props.summary}</p>
       <p className="mt-4 text-green-400/80 xs:text-xs">
         {props.contributors.join(" ")}
       </p>
