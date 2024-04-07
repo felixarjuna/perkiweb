@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { desc, eq } from "drizzle-orm";
 import { schedules } from "~/lib/db/schema/schedules";
 import { db } from "~/server";
 import {
@@ -10,7 +10,7 @@ import { createTRPCRouter, publicProcedure } from "../trpc";
 
 export const scheduleRouter = createTRPCRouter({
   getSchedules: publicProcedure.query(async () => {
-    return await db.select().from(schedules).orderBy(schedules.date);
+    return await db.select().from(schedules).orderBy(desc(schedules.date));
   }),
   addSchedule: publicProcedure
     .input(addScheduleSchema)

@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { desc, eq } from "drizzle-orm";
 import { schedules } from "~/lib/db/schema/schedules";
 import { takeaways } from "~/lib/db/schema/takeaways";
 import { db } from "~/server";
@@ -14,7 +14,8 @@ export const takeawayRouter = createTRPCRouter({
     return await db
       .select()
       .from(takeaways)
-      .innerJoin(schedules, eq(schedules.id, takeaways.scheduleId));
+      .innerJoin(schedules, eq(schedules.id, takeaways.scheduleId))
+      .orderBy(desc(schedules.date));
   }),
   addTakeaway: publicProcedure
     .input(addTakeawaySchema)
