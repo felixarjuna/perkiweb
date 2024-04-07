@@ -31,7 +31,7 @@ export default function Home() {
           {/* <div className="h-[2px] bg-green-default"></div> */}
         </div>
 
-        <div className="col-span-3 grid grid-cols-2 gap-28 pr-40 xs:col-span-4 xs:gap-12 xs:pr-0">
+        <div className="col-span-3 grid grid-cols-2 items-center gap-28 pr-40 xs:col-span-4 xs:gap-12 xs:pr-0">
           {events.map((event, index) => {
             return (
               <div

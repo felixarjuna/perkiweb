@@ -66,7 +66,7 @@ export const events: Event[] = [
   },
   {
     name: "Small Group Bible Study",
-    time: "Saturday, 15.30 - 17.00",
+    time: "Saturday, 13.00 - 15.00",
     notes:
       "Focusing our attention deeply on the truth that the Word of God has for us.",
     description:
@@ -75,14 +75,6 @@ export const events: Event[] = [
   {
     name: "Prayer Fellowship (Aachen)",
     time: "Thursday, 18:30 - 21.00",
-    notes:
-      "Having the moments in the middle of our busy live to meditate about the Word of God together.",
-    description:
-      "In the midst of our busy schedules, we take time together to share what happened during the week and pray together, exchange advice, and provide support for those in need.",
-  },
-  {
-    name: "Prayer Fellowship (Jülich)",
-    time: "Friday, 18.30 - 21.00",
     notes:
       "Having the moments in the middle of our busy live to meditate about the Word of God together.",
     description:
