@@ -4,9 +4,9 @@ dotenv.config();
 
 // Prod env
 export default {
-  schema: "./src/lib/db/schema",
+  schema: "./src/lib/db/schema/schema.ts",
   out: "./src/lib/db/migrations",
-  driver: "mysql2",
+  driver: "pg",
   dbCredentials: {
     connectionString: process.env.DATABASE_URL ?? "",
   },
