@@ -1,6 +1,5 @@
 import { desc, eq } from "drizzle-orm";
-import { schedules } from "~/lib/db/schema/schedules";
-import { takeaways } from "~/lib/db/schema/takeaways";
+import { schedules, takeaways } from "~/lib/db/schema/schema";
 import { db } from "~/server";
 import {
   addTakeawaySchema,

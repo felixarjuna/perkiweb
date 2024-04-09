@@ -1,9 +1,6 @@
 // Production env
-import { connect } from "@planetscale/database";
-import { drizzle } from "drizzle-orm/planetscale-serverless";
+import { drizzle } from "drizzle-orm/postgres-js";
+import postgres from "postgres";
 
-const connection = connect({
-  url: process.env.DATABASE_URL,
-});
-
+const connection = postgres(process.env.DATABASE_URL!);
 export const db = drizzle(connection);
