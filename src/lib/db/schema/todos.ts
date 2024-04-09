@@ -1,7 +1,7 @@
-import { int, mysqlTable, serial, text } from "drizzle-orm/mysql-core";
+import { integer, pgTable, serial, text } from "drizzle-orm/pg-core";
 
-export const todos = mysqlTable("todos", {
+export const todos = pgTable("todos", {
   id: serial("id").primaryKey(),
   content: text("content"),
-  done: int("done"),
+  done: integer("done"),
 });
