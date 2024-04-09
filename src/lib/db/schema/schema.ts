@@ -2,7 +2,6 @@ import {
   bigserial,
   boolean,
   integer,
-  json,
   pgEnum,
   pgTable,
   primaryKey,
@@ -62,7 +61,7 @@ export const prayers = pgTable(
     name: text("name"),
     content: text("content").notNull(),
     count: integer("count").default(0).notNull(),
-    prayerNames: json("prayerNames").notNull(),
+    prayerNames: text("prayerNames").array().notNull(),
     isAnonymous: boolean("isAnonymous").default(false),
     createdAt: timestamp("createdAt", { withTimezone: true, mode: "string" }),
   },
@@ -112,7 +111,7 @@ export const takeaways = pgTable(
     id: bigserial("id", { mode: "number" }).primaryKey().notNull(),
     scheduleId: bigserial("scheduleId", { mode: "number" }).notNull(),
     keypoints: text("keypoints").notNull(),
-    contributors: json("contributors").notNull(),
+    contributors: text("contributors").array().notNull(),
   },
   (table) => {
     return {
