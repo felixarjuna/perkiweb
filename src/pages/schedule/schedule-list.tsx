@@ -159,7 +159,9 @@ export default function ScheduleList() {
 
   const upcomingSchedules = React.useMemo(() => {
     const saturdayDate = getNextDayOfWeek(new Date(), 6);
-    return schedules?.filter((schedule) => schedule.date > saturdayDate);
+    return schedules
+      ?.filter((schedule) => schedule.date > saturdayDate)
+      .sort((a, b) => a.date.getTime() - b.date.getTime());
   }, [schedules]);
 
   function renderUpcomingSchedule() {
