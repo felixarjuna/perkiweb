@@ -31,7 +31,7 @@ import { getUsernameFromName } from "~/lib/utils";
 import { api } from "~/utils/api";
 
 const addTakeawayFormSchema = z.object({
-  scheduleTitle: z.string(),
+  scheduleId: z.string(),
   keypoints: z.string(),
   contributors: z.array(z.string()),
 });
@@ -70,7 +70,7 @@ export default function AddTakeawayForm() {
   // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof addTakeawayFormSchema>) {
     const scheduleId = schedules?.find(
-      (schedule) => schedule.title === values.scheduleTitle,
+      (schedule) => schedule.id === +values.scheduleId,
     )?.id;
     if (scheduleId === undefined) return;
     addTakeaway.mutate({ ...values, scheduleId });
@@ -90,7 +90,7 @@ export default function AddTakeawayForm() {
             <div className="col-span-2">
               <FormField
                 control={form.control}
-                name="scheduleTitle"
+                name="scheduleId"
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel className="text-md">Schedule</FormLabel>
@@ -106,8 +106,15 @@ export default function AddTakeawayForm() {
                         </FormControl>
                         <SelectContent>
                           {schedules?.map((schedule, index) => (
-                            <SelectItem value={schedule.title} key={index}>
-                              {schedule.title}
+                            <SelectItem
+                              value={schedule.id.toString()}
+                              key={index}
+                            >
+                              {schedule.title
+                                .toLowerCase()
+                                .includes("exposition")
+                                ? `${schedule.title} - ${schedule.bibleVerse}`
+                                : schedule.title}
                             </SelectItem>
                           ))}
                         </SelectContent>
