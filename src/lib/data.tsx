@@ -207,6 +207,7 @@ export const speakers = [
   "Steffen Josua",
   "Clarissa Adelyne",
   "Arya Bangun",
+  "Reggy Irawan",
   "Pdt. John Kusuma",
   "Pdt. Titus Christanto",
   "Ev. Nehemiah Riggruben",
@@ -251,6 +252,7 @@ export const accommodation = [
   "Reggy Irawan",
   "Jansen Nathanel",
   "Albertus Pandya",
+  "Ido Manuel",
 ];
 
 export const groups = [
