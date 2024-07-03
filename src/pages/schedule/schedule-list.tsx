@@ -139,9 +139,15 @@ export default function ScheduleList() {
     const mondayDate = getNextDayOfWeek(new Date(), 0);
     const saturdayDate = getNextDayOfWeek(new Date(), 6);
 
-    return schedules?.filter(
-      (schedule) => schedule.date > mondayDate && schedule.date < saturdayDate,
-    );
+    return schedules
+      ?.filter(
+        (schedule) =>
+          schedule.date > mondayDate && schedule.date < saturdayDate,
+      )
+      .sort((a, b) => {
+        if (a.date > b.date) return 1;
+        return -1;
+      });
   }, [schedules]);
 
   function renderThisWeekSchedule() {
