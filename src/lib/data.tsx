@@ -222,6 +222,7 @@ export const liturgos = [
   "Reggy Irawan",
   "Steffen Josua",
   "Winston A.",
+  "Oliver Renaldi",
 ];
 
 export const musicians = [
