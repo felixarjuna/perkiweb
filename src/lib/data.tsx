@@ -211,7 +211,8 @@ export const speakers = [
   "Pdt. John Kusuma",
   "Pdt. Titus Christanto",
   "Ev. Nehemiah Riggruben",
-];
+  "Kevin Achwan",
+].sort();
 
 export const liturgos = [
   "Danny Kurniawan",
@@ -223,7 +224,7 @@ export const liturgos = [
   "Steffen Josua",
   "Winston A.",
   "Oliver Renaldi",
-];
+].sort();
 
 export const musicians = [
   "Felix Arjuna",
@@ -235,7 +236,7 @@ export const musicians = [
   "Oliver Renaldi",
   "Wynnona A.",
   "Shane Arno",
-];
+].sort();
 
 export const multimedia = [
   "Danny Kurniawan",
@@ -244,7 +245,7 @@ export const multimedia = [
   "Jordie Yonathan",
   "Felix Arjuna",
   "Victor Jordan",
-];
+].sort();
 
 export const accommodation = [
   "Oliver Renaldi",
@@ -254,7 +255,7 @@ export const accommodation = [
   "Jansen Nathanel",
   "Albertus Pandya",
   "Ido Manuel",
-];
+].sort();
 
 export const groups = [
   "Group 1",
@@ -263,4 +264,4 @@ export const groups = [
   "Group 4",
   "Group 5",
   "Group 6",
-];
+].sort();
