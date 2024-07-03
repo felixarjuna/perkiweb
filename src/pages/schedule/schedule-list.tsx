@@ -31,7 +31,7 @@ export default function ScheduleList() {
 
   function renderScheduleDetails(schedule: Schedule) {
     return (
-      <div className="flex items-center gap-x-2  font-reimbrandt text-green-400/80 xs:flex-wrap xs:gap-x-1 xs:text-xs">
+      <div className="flex items-center gap-x-2 whitespace-break-spaces font-reimbrandt text-green-400/80 xs:flex-wrap xs:gap-x-1 xs:text-xs">
         <p>{schedule.speaker}</p>
         <span>&middot;</span>
         <p>{schedule.bibleVerse}</p>
@@ -139,7 +139,7 @@ export default function ScheduleList() {
     const mondayDate = getNextDayOfWeek(new Date(), 0);
     const saturdayDate = getNextDayOfWeek(new Date(), 6);
 
-    return schedules?.find(
+    return schedules?.filter(
       (schedule) => schedule.date > mondayDate && schedule.date < saturdayDate,
     );
   }, [schedules]);
@@ -152,7 +152,7 @@ export default function ScheduleList() {
     return (
       <div className="space-y-4">
         <h1 className="font-reimbrandt text-2xl tracking-wide">This Week</h1>
-        {renderSchedule(thisWeekSchedule)}
+        {thisWeekSchedule.map((schedule) => renderSchedule(schedule))}
       </div>
     );
   }
