@@ -14,6 +14,7 @@ import {
 import Welcome from "~/components/welcome";
 import WhatWeDo from "~/components/what-we-do";
 import WhereAreWe from "~/components/where-are-we";
+import { cn } from "~/lib/utils";
 
 export default function Home() {
   return (
@@ -30,9 +31,12 @@ export default function Home() {
           <DialogFooter>
             <Link
               href={"/group"}
-              className={buttonVariants({ variant: "default" })}
+              className={cn(
+                buttonVariants({ variant: "default" }),
+                "flex items-center justify-center",
+              )}
             >
-              Click here to see your teammates 👨‍👩‍👦‍👦
+              Click here to see your teammates 👯‍♀️
             </Link>
           </DialogFooter>
         </DialogContent>
