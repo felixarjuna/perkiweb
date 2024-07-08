@@ -16,12 +16,6 @@
   }
 }
 
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: theme(colors.dark-green.default) theme(colors.green.default);
-}
-
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 7px;
@@ -29,7 +23,7 @@
 
 *::-webkit-scrollbar-track {
   background: theme(colors.dark-green.default);
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -37,3 +31,10 @@
   border-radius: 10px;
   border: 5px solid theme(colors.green.default);
 }
+
+/* Firefox */
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: theme(colors.dark-green.default) theme(colors.green.default);
+  border-radius: 5px;
+} */
