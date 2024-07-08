@@ -73,7 +73,7 @@ export default function ScheduleList() {
     const cleaningGroupMembers = groups
       .filter(
         (group) =>
-          group.name.toLowerCase() === schedule.cookingGroup?.toLowerCase(),
+          group.name.toLowerCase() === schedule.cleaningGroup?.toLowerCase(),
       )
       .at(0)?.members;
 
@@ -162,7 +162,7 @@ export default function ScheduleList() {
                   </p>
 
                   <div className="flex items-center justify-center gap-2">
-                    {cookingGroupMembers?.map((member, i) => (
+                    {cleaningGroupMembers?.map((member, i) => (
                       <div
                         className="w-fit rounded-full bg-primary-foreground px-3 py-1  text-secondary-foreground"
                         key={i}
