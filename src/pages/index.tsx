@@ -36,7 +36,7 @@ export default function Home() {
                 "flex items-center justify-center",
               )}
             >
-              Click here to see your teammates 👯‍♀️
+              Click here to see your teammates 💃
             </Link>
           </DialogFooter>
         </DialogContent>
