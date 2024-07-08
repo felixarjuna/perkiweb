@@ -33,10 +33,10 @@ export default function Home() {
               href={"/group"}
               className={cn(
                 buttonVariants({ variant: "default" }),
-                "flex items-center justify-center",
+                "flex w-fit items-center justify-center",
               )}
             >
-              Click here to see your teammates 💃
+              Click here to see your teammates 🎉
             </Link>
           </DialogFooter>
         </DialogContent>
