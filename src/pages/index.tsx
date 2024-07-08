@@ -28,7 +28,7 @@ export default function Home() {
               🍳🧹
             </DialogDescription>
           </DialogHeader>
-          <DialogFooter>
+          <DialogFooter className="flex items-center justify-center">
             <Link
               href={"/group"}
               className={cn(
@@ -36,7 +36,7 @@ export default function Home() {
                 "flex w-fit items-center justify-center",
               )}
             >
-              Click here to see your teammates 🎉
+              See your teammates here! 👯‍♀️
             </Link>
           </DialogFooter>
         </DialogContent>
