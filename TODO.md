@@ -1,7 +1,7 @@
 # TODO
 
 - [] Add note writer to schedules
-- [] Add cleaning and cooking group
+- [x] Add cleaning and cooking group
 
 ## Nice to have
 
