@@ -21,9 +21,22 @@ import { useToast } from "~/components/ui/use-toast";
 import { dateTimeFormatter, getNextDayOfWeek } from "~/lib/utils";
 import { api, type RouterOutputs } from "~/utils/api";
 import { groups } from "../group";
+import RandomVerse from "./_components/random-verse";
 
 type Schedule = RouterOutputs["schedules"]["getSchedules"][number];
 const SUMMARY_MAX_LENGTH = 250;
+
+const verses = [
+  'Psalm 133:1 — "How good and pleasant it is when God’s people live together in unity!"',
+  '1 Corinthians 12:12 — "Just as a body, though one, has many parts, but all its many parts form one body, so it is with Christ."',
+  'Hebrews 13:16 — "And do not forget to do good and to share with others, for with such sacrifices God is pleased."',
+  'Romans 12:10 — "Be devoted to one another in love. Honor one another above yourselves."',
+  'Proverbs 27:17 — "As iron sharpens iron, so one person sharpens another."',
+  'John 15:12 — "My command is this: Love each other as I have loved you."',
+  'Acts 4:32 — "All the believers were one in heart and mind. No one claimed that any of their possessions was their own, but they shared everything they had."',
+  'Ecclesiastes 4:9 — "Two are better than one, because they have a good return for their labor."',
+  '1 Corinthians 12:12 — "Just as a body, though one, has many parts, but all its many parts form one body, so it is with Christ."',
+];
 
 export default function ScheduleList() {
   const { toast } = useToast();
@@ -111,10 +124,7 @@ export default function ScheduleList() {
               <DrawerTitle>{schedule.cookingGroup}</DrawerTitle>
               <DrawerDescription className="flex items-center justify-center gap-2 py-6">
                 <div className="flex flex-col gap-4">
-                  <p className="px-8 font-reimbrandt text-primary-foreground">
-                    Ecclesiastes 4:9 — &quot;Two are better than one, because
-                    they have a good return for their labor.&quot;
-                  </p>
+                  <RandomVerse items={verses} />
 
                   <div className="flex items-center justify-center gap-2">
                     {cookingGroupMembers?.map((member, i) => (
@@ -156,10 +166,7 @@ export default function ScheduleList() {
               <DrawerTitle>{schedule.cleaningGroup}</DrawerTitle>
               <DrawerDescription className="flex items-center justify-center gap-2 py-6">
                 <div className="flex flex-col gap-4">
-                  <p className="px-8 font-reimbrandt text-primary-foreground">
-                    Ecclesiastes 4:9 Two are better than one, because they have
-                    a good return for their labor.
-                  </p>
+                  <RandomVerse items={verses} />
 
                   <div className="flex items-center justify-center gap-2">
                     {cleaningGroupMembers?.map((member, i) => (
