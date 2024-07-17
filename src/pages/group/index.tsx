@@ -12,14 +12,17 @@ export const groups = [
     members: ["Danny", "Shane", "Wisnu", "Ruth", "Dian", "Gerry"],
   },
   { name: "Group 2", members: ["Reggy", "Felix", "Jason", "Erico", "Gaby"] },
-  { name: "Group 3", members: ["Toni", "Victor", "Angel", "Ricky", "Deronn"] },
+  {
+    name: "Group 3",
+    members: ["Toni", "Victor", "Angel", "Ricky", "Deronn", "Trevor"],
+  },
   {
     name: "Group 4",
-    members: ["Aldi", "Billy", "Andrew", "Mary", "Winston S."],
+    members: ["Aldi", "Billy", "Andrew", "Mary", "Winston S.", "Randy"],
   },
   {
     name: "Group 5",
-    members: ["Winston Y.", "Steffen", "Karyn", "Jco", "Grace"],
+    members: ["Winston Y.", "Steffen", "Karyn", "Jco", "Grace", "Vincent"],
   },
   { name: "Group 6", members: ["Chen", "Ido", "Wynnona", "Tius", "Daven"] },
 ];
