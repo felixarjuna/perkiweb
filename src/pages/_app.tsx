@@ -44,10 +44,10 @@ const MyApp: AppType<{ session: Session | null }> = ({
         <AnimatedCursor
           color={"255, 255, 255"}
           innerSize={0}
-          outerSize={64}
+          outerSize={30}
           outerAlpha={1}
           innerScale={2}
-          outerScale={2}
+          outerScale={1.5}
           clickables={[
             "a",
             'input[type="text"]',

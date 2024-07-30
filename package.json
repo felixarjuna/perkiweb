@@ -2,11 +2,13 @@
   "name": "perkiweb",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "drizzle:seed": "node --loader esbuild-register/loader -r esbuild-register ./src/lib/db/seed.ts"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^0.3.3",
@@ -14,8 +16,10 @@
     "@next/font": "^13.4.19",
     "@planetscale/database": "^1.11.0",
     "@prisma/client": "^5.1.1",
+    "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.0.4",
-    "@radix-ui/react-dialog": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-popover": "^1.0.6",
     "@radix-ui/react-select": "^1.2.2",
@@ -59,6 +63,7 @@
     "superjson": "^1.13.1",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
+    "vaul": "^0.9.1",
     "zod": "^3.22.2",
     "zustand": "^4.4.3"
   },
