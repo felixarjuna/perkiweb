@@ -1,0 +1,55 @@
+﻿Description,Receipt,Date,Amount,income/expense,Category,Account,Notes,Check Box
+Start Konto (Last Year),,"January 1, 2020",5565.32,,,commerzbank,,No
+FeG-Aachen,,"January 2, 2020",-1050,expense,Other,commerzbank,,No
+Uang Pendeta,,"January 2, 2020",-140,expense,Pendeta,commerzbank,,No
+Persembahan (Januari),,"January 30, 2020",638.51,income,Persembahan,commerzbank,,No
+Masak-Masak 1,,"January 2, 2020",-17.16,expense,Makan,commerzbank,,No
+Masak-Masak 2,,"January 27, 2020",-13.8,expense,Makan,commerzbank,,No
+Uang Pendeta,,"February 3, 2020",-140,expense,Pendeta,commerzbank,,No
+Masak-Masak 1,,"February 13, 2020",-25.54,expense,Makan,commerzbank,,No
+Masak-Masak 2,,"February 24, 2020",-20.44,expense,Makan,commerzbank,,No
+Persembahan (Febuari),,"February 19, 2020",708.76,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"March 2, 2020",-140,expense,Pendeta,commerzbank,,No
+Masak-Masak 1,,"March 9, 2020",-31.83,expense,Makan,commerzbank,,No
+Persembahan (Maret),,"March 31, 2020",340.5,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"April 3, 2020",-140,expense,Pendeta,commerzbank,,No
+Spende COVID,,"April 17, 2020",-756.36,expense,Other,commerzbank,,No
+Persembahan (April),,"April 30, 2020",459.5,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"May 4, 2020",-140,expense,Pendeta,commerzbank,,No
+Pdt. Adreas Filipus,,"May 18, 2020",-70,expense,Pendeta,commerzbank,,No
+Persembahan (May),,"May 31, 2020",318.51,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"June 1, 2020",-140,expense,Pendeta,commerzbank,,No
+Kak Menri,,"June 29, 2020",-70,expense,Pendeta,commerzbank,,No
+Persembahan (June),,"June 30, 2020",272.04,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"July 3, 2020",-140,expense,Pendeta,commerzbank,,No
+Persembahan (July),,"July 31, 2020",183.04,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"August 3, 2020",-140,expense,Pendeta,commerzbank,,No
+Hygieneartikel,,"August 10, 2020",-30.07,expense,Other,commerzbank,,No
+Perpuluhan,,"August 13, 2020",88.04,income,Perpuluhan,commerzbank,,No
+Perpuluhan,,"August 18, 2020",60,income,Perpuluhan,commerzbank,,No
+Persembahan (Agustus),,"August 31, 2020",60,income,Persembahan,commerzbank,,No
+Steffen Josua Tjandra,,"September 1, 2020",20,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"September 1, 2020",-140,expense,Pendeta,commerzbank,,No
+Kado Ulang Tahun,,"September 11, 2020",-13.02,expense,Other,commerzbank,,No
+Arbeitssamstag,,"September 14, 2020",-32,expense,Makan,commerzbank,,No
+IBADAH 12.09.2020,,"September 18, 2020",123.35,income,Persembahan,commerzbank,,No
+Perpuluhan,,"September 25, 2020",88.04,income,Perpuluhan,commerzbank,,No
+Perpuluhan,,"September 25, 2020",90,income,Perpuluhan,commerzbank,,No
+Persembahan (September),,"September 28, 2020",25.5,income,Persembahan,commerzbank,,No
+Uang Pendeta,,"October 1, 2020",-140,expense,Pendeta,commerzbank,,No
+Perpuluhan,,"October 2, 2020",88.04,income,Perpuluhan,commerzbank,,No
+Aldi,,"October 19, 2020",-13.5,expense,Makan,commerzbank,,No
+Persembahan (October),,"October 22, 2020",89,income,Persembahan,commerzbank,,No
+Anak Baru,,"November 3, 2020",-17.16,expense,Makan,commerzbank,,No
+Uang Pendeta,,"November 3, 2020",-140,expense,Pendeta,commerzbank,,No
+Persembahan (November),,"November 30, 2020",464,income,Persembahan,commerzbank,,No
+Pdt. John + Ev. Rigg Ruben,,"December 3, 2020",-220,expense,Pendeta,commerzbank,,No
+Pdt. Titus,,"December 3, 2020",-70,expense,Pendeta,commerzbank,,No
+Uang Kado Feg,,"December 14, 2020",-14.2,expense,Other,commerzbank,,No
+Uang Kado Feg,,"December 14, 2020",-20.7,expense,Other,commerzbank,,No
+Uang Kado Feg,,"December 14, 2020",-15.7,expense,Other,commerzbank,,No
+Persembahan (December),,"December 28, 2020",410,income,Persembahan,commerzbank,,No
+Budget Konsumsi,,"December 28, 2020",-29.91,expense,"Acara Natal, Makan",commerzbank,,No
+Budget Dekor,,"December 28, 2020",-7,expense,Acara Natal,commerzbank,,No
+Uang Alumni,,"December 31, 2020",200,income,Pendeta,commerzbank,,No
+Uang Dekor,,"December 31, 2020",-7.34,expense,Acara Natal,commerzbank,,No

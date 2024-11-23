@@ -1,0 +1,157 @@
+﻿Description,Receipt,Date,Amount,income/expense,uses,Category,Account,Notes,Double Checked
+"Persembahan ",,"January 2, 2023",30,income,,Persembahan,sparkasse,,No
+Persembahan,,"January 7, 2023",10,income,,Persembahan,sparkasse,,No
+Persembahan,,"January 7, 2023",81,income,,Persembahan,paypal,,No
+Persembahan,,"January 14, 2023",38.5,income,,Persembahan,paypal,,No
+Persembahan,,"January 14, 2023",10,income,,Persembahan,sparkasse,,No
+Beras,,"January 18, 2023",-1.5,expense,internal,Makan,paypal,PIC: Reggy,No
+Persembahan,,"January 21, 2023",15,income,,Persembahan,sparkasse,,No
+Bahan dapur,"A6CB40BD-B100-42FD-BFDC-CB70D4460F57.jpeg, DABCFD97-1018-4F19-A473-C0B8EDA0B0AC.jpeg","January 24, 2023",-19.74,expense,internal,Makan,paypal,PIC: Winston,No
+Persembahan,,"January 28, 2023",32,income,,Persembahan,paypal,,No
+Website Perki,,"January 28, 2023",-123.06,expense,eksternal,Other,paypal,,No
+Uang pendeta,,"February 1, 2023",-400,expense,pendeta,Pendeta,sparkasse,,No
+Mitgliedskarte DJH,,"February 3, 2023",-37,expense,internal,Other,sparkasse,,No
+Persembahan,,"February 4, 2023",10,income,,Persembahan,sparkasse,,No
+Konsumsi ibadah 28.01,"52D54E1F-44A1-42C8-98C8-792080C42409.jpeg, F93ADD12-8508-42D3-8D32-420E48C99823.jpeg, A4A7411F-4C7F-44C6-B8F9-92ADE42C2E48.jpeg","February 10, 2023",-27.07,expense,internal,Makan,paypal,"PIC: Aldi, Wisnu",No
+Sumbangan misi Guinea-Bissau,,"February 11, 2023",316,income,,Other,paypal,,No
+Persembahan,,"February 11, 2023",97.26,income,,Persembahan,paypal,,No
+Bantuan untuk mawar,,"February 16, 2023",200,income,,Other,sparkasse,,No
+Persembahan,,"February 18, 2023",63.5,income,,Persembahan,paypal,,No
+Vorauszahlung Retret DJH Wiehl,,"February 21, 2023",-1858,expense,internal,Other,sparkasse,,No
+Persembahan,,"February 25, 2023",56.49,income,,Persembahan,paypal,,No
+Konsumsi ibadah,,"February 25, 2023",-38.45,expense,internal,Makan,sparkasse,,No
+Sumbangan Misi Guinea-Bissau,,"March 10, 2023",-726,expense,eksternal,Other,sparkasse,FeG Hamburg,No
+Persembahan,,"March 11, 2023",10,income,,Persembahan,sparkasse,,No
+Sumbangan Misi Guinea-Bissau,,"March 11, 2023",100,income,,Other,paypal,,No
+Bantuan untuk mawar,,"March 21, 2023",300,income,,Other,sparkasse,,No
+Persembahan,,"April 1, 2023",116,income,,Persembahan,paypal,,No
+Kolak Arbeitssamstag,,"April 1, 2023",-40,expense,eksternal,Makan,paypal,PIC: Danny,No
+Uang Pendeta,,"April 1, 2023",-400,expense,pendeta,Pendeta,sparkasse,,No
+Persembahan,,"April 8, 2023",30,income,,Persembahan,sparkasse,,No
+Persembahan,,"April 8, 2023",106,income,,Persembahan,paypal,,No
+Pelayanan Pendeta Retret,,"April 17, 2023",-100,expense,pendeta,Pendeta,sparkasse,Mas Titus,No
+Konsumsi Retret,,"April 17, 2023",-42.99,expense,internal,Makan,sparkasse,,No
+Persembahan,,"April 22, 2023",10,income,,Persembahan,sparkasse,,No
+Persembahan,,"April 25, 2023",5,income,,Persembahan,sparkasse,,No
+Persembahan,,"April 29, 2023",138,income,,Persembahan,paypal,,No
+Persembahan,,"April 29, 2023",20,income,,Persembahan,sparkasse,,No
+Uang pendeta,,"May 2, 2023",-400,expense,pendeta,Pendeta,sparkasse,,No
+Persembahan,,"May 4, 2023",76.62,income,,Persembahan,paypal,,No
+Persembahan,,"May 6, 2023",15,income,,Persembahan,sparkasse,,No
+Persembahan,,"May 13, 2023",92,income,,Persembahan,paypal,,No
+Konsumsi ibadah,"21627C6A-427C-47EB-862F-0FAC14B03F5C.jpeg, D23D8A81-43BC-4086-9469-E1216358B4BA.jpeg","May 24, 2023",-34.12,expense,internal,Makan,paypal,PIC: Aldi,No
+Subsidi Grillen,,"May 25, 2023",-30,expense,internal,Makan,paypal,PIC: Jordie,No
+Bola,,"May 25, 2023",-26.9,expense,internal,Other,paypal,PIC: Jordie,No
+Persembahan,,"May 31, 2023",150,income,,Persembahan,paypal,,No
+Uang pendeta,,"June 1, 2023",-400,expense,pendeta,Pendeta,sparkasse,,No
+Subsidi Grillen,"F0FD9FE9-8B40-4849-87DE-4956B1EDC14B.jpeg, 84F6D1BE-F2EB-434A-BBD0-2EA411BD4FF7.jpeg","June 10, 2023",-42.65,expense,internal,Makan,paypal,PIC: Aldi,No
+Persembahan,,"June 10, 2023",161,income,,Persembahan,paypal,,No
+Persembahan,,"June 17, 2023",116.16,income,,Persembahan,paypal,,No
+Umbuchung,,"June 19, 2023",1000,income,,Other,sparkasse,,No
+Persembahan,,"June 24, 2023",91,income,,Persembahan,paypal,,No
+Umbuchung,,"June 29, 2023",-600,expense,internal,Other,paypal,,No
+Uang Pendeta,,"July 3, 2023",-400,expense,pendeta,Pendeta,sparkasse,,No
+Persembahan,,"July 8, 2023",267,income,,Persembahan,paypal,,No
+Rice cooker,,"July 15, 2023",-99.59,expense,internal,Other,paypal,PIC: Jordie,No
+Persembahan,,"July 22, 2023",5,income,,Persembahan,paypal,,No
+Persembahan,,"July 24, 2023",27,income,,Persembahan,sparkasse,,No
+Persembahan,,"July 29, 2023",5,income,,Persembahan,paypal,,No
+Persembahan,,"July 31, 2023",194,income,,Persembahan,sparkasse,,No
+Uang pendeta,,"August 1, 2023",-400,expense,pendeta,Pendeta,sparkasse,,No
+Persembahan,,"August 7, 2023",50,income,,Persembahan,sparkasse,,No
+Persembahan,,"August 8, 2023",8,income,,Persembahan,sparkasse,,No
+Konsumsi ibadah (08.07.23),1AC1193A-E881-4409-9C6A-B251AB3666E2.jpeg,"August 8, 2023",-30.07,expense,internal,Makan,paypal,PIC: Billy,No
+Persembahan,,"August 12, 2023",15,income,,Persembahan,paypal,,No
+Es krim,,"August 20, 2023",-7.96,expense,internal,Makan,paypal,PIC: Reggy,No
+Konsumsi ibadah 19.08.23,,"August 20, 2023",-19.57,expense,internal,Makan,paypal,PIC: Deron,No
+Persembahan,,"August 21, 2023",42,income,,Persembahan,sparkasse,,No
+Persembahan,,"August 22, 2023",3,income,,Persembahan,sparkasse,,No
+Mita Day,,"August 22, 2023",-65,expense,internal,Makan,sparkasse,,No
+Persembahan,,"August 26, 2023",93,income,,Persembahan,paypal,,No
+Persembahan,,"August 28, 2023",44.2,income,,Persembahan,sparkasse,,No
+"Persembahan ",,"September 4, 2023",27,income,,Persembahan,sparkasse,,No
+Persembahan offline,,"September 6, 2023",65.35,income,,Persembahan,paypal,,No
+Konsumsi ibadah 12.08.23,S__3915823.jpg,"September 6, 2023",-18,,internal,Makan,paypal,"PIC: Erico, Steffen",No
+Persembahan,,"September 16, 2023",71,income,,Persembahan,paypal,,No
+Persembahan,,"September 25, 2023",20,income,,Persembahan,sparkasse,,No
+Persembahan,,"September 30, 2023",45,income,,Persembahan,paypal,,No
+Konsumsi ibadah 23.09.23,,"September 30, 2023",-42.1,expense,,Makan,paypal,"PIC: Winston, Gerry",No
+Uang Pendeta,,"October 2, 2023",-400,expense,,Pendeta,sparkasse,,No
+Persembahan,,"October 7, 2023",92,income,,Persembahan,paypal,,No
+Persembahan,,"October 9, 2023",25,income,,Persembahan,sparkasse,,No
+Uang duka Ido,,"October 14, 2023",370,income,,,paypal,,No
+Uang duka Ido,,"October 15, 2023",148,income,,,paypal,,No
+Uang duka Ido,,"October 16, 2023",40,income,,,paypal,,No
+Persembahan,,"October 16, 2023",15,income,,Persembahan,sparkasse,,No
+Uang duka,,"October 16, 2023",215,income,,,sparkasse,Ido,No
+Persembahan,,"October 22, 2023",2,income,,Persembahan,paypal,,No
+Konsumsi ibadah 09.09.23,,"October 22, 2023",-22.67,expense,,Makan,paypal,PIC: Wisnu,No
+Website Perki,,"October 23, 2023",-83.72,expense,,Other,sparkasse,,No
+Persembahan,,"October 23, 2023",10,income,,Persembahan,sparkasse,,No
+Konsumsi ibadah 09.09.23,,"October 23, 2023",-13,expense,,Makan,sparkasse,PIC: Victor,No
+Persembahan,,"October 28, 2023",101,income,,Persembahan,paypal,,No
+Uang duka Ido,,"October 29, 2023",52,income,,,paypal,,No
+Umbuchung,,"October 31, 2023",-6941.13,expense,,Other,paypal,,No
+Konsumsi ibadah 28.10.23,,"October 31, 2023",-71.35,expense,,Makan,paypal,,No
+Uang duka Ido,,"October 31, 2023",30,income,,,paypal,,No
+Uang duka Ido,,"November 11, 2023",107.24,income,,,paypal,,No
+Schlüsselpfand,,"November 13, 2023",-50,expense,,Other,sparkasse,,No
+Persembahan,,"November 13, 2023",20,income,,Persembahan,sparkasse,,No
+Ciabatta Perjamuan kudus,,"November 20, 2023",-1.38,expense,,Makan,paypal,PIC: Ruth,No
+Gefrierbeutel,495977.jpg,"November 20, 2023",-4.95,expense,,Other,sparkasse,PIC: Toni,No
+Persembahan,,"November 20, 2023",30,income,,Persembahan,sparkasse,,No
+Uang duka,,"November 20, 2023",-1067.24,expense,,,sparkasse,Ido,No
+Konsumsi,,"November 27, 2023",-20.01,expense,,Makan,sparkasse,,No
+Konsumi ibadah,,"November 29, 2023",-28.29,expense,,Makan,sparkasse,PIC: Erico,No
+Persembahan,,"December 2, 2023",146,income,,Persembahan,paypal,,No
+Persembahan,,"December 7, 2023",5,income,,Persembahan,paypal,,No
+Persembahan,,"December 9, 2023",68,income,,Persembahan,paypal,,No
+Persembahan,,"December 11, 2023",10,income,,Persembahan,sparkasse,,No
+Persembahan natal,,"December 16, 2023",338.5,income,,"Acara Natal, Persembahan",paypal,,No
+Umbuchung,,"December 17, 2023",-678.5,expense,,Other,paypal,,No
+Einzahlung Spende (2022),,"December 23, 2023",400,income,,Other,paypal,Billy Aristo,No
+Spende Kevin,,"December 26, 2023",35,income,,Other,paypal,,No
+Abrechnung Sparkasse,,"December 29, 2023",1.02,income,,Other,sparkasse,,No
+Spende Kevin,,"December 30, 2023",25,income,,Other,paypal,,No
+Uang Dekor natal,,"December 31, 2023",-66.03,expense,,Acara Natal,paypal,"PIC: Karyn, Ruth",No
+Einkauf?,,"January 3, 2024",-93.04,expense,,Other,sparkasse,,No
+Spende Kevin,,"January 13, 2024",30,income,,Other,paypal,,No
+"Persembahan ",,"January 13, 2024",104,income,,Persembahan,paypal,,No
+Persembahan,,"January 29, 2024",25,income,,Persembahan,sparkasse,,No
+Perpuluhan,,"January 29, 2024",150,income,,Perpuluhan,sparkasse,,No
+Uang Pendeta,,"February 1, 2024",-400,expense,,Pendeta,sparkasse,,No
+Persembahan,,"February 5, 2024",20,income,,Persembahan,sparkasse,,No
+Konsumsi Ibadah 27.01.24 + Kue ultah,,"February 9, 2024",-88.77,,,Makan,paypal,"PIC: Aldi, Winston. S, Victor",No
+Persembahan,,"February 10, 2024",174.52,income,,Persembahan,paypal,,No
+Persembahan,,"February 19, 2024",20,income,,Persembahan,sparkasse,,No
+Persembahan,,"February 24, 2024",172.85,income,,Persembahan,paypal,,No
+Persembahan,,"March 2, 2024",82,income,,Persembahan,paypal,,No
+Persembahan,,"March 9, 2024",123,income,,Persembahan,paypal,,No
+Persembahan,,"March 11, 2024",20,income,,Persembahan,sparkasse,,No
+Konsumsi ibadah 09.03.24,,"March 13, 2024",-10.98,expense,,Makan,sparkasse,PIC: Toni,No
+Persembahan,,"March 18, 2024",20,income,,Persembahan,sparkasse,,No
+Konsumsi Ibadah 23.03.24,,"March 23, 2024",-65.09,expense,,Makan,paypal,"PIC: Gaby, Erico, Ricky",No
+Persembahan,,"March 25, 2024",30,income,,Persembahan,sparkasse,,No
+Abrechnung,,"March 28, 2024",0.95,income,,Other,sparkasse,,No
+Uang Pendeta,,"April 2, 2024",-400,expense,,Pendeta,sparkasse,,No
+Persembahan,,"April 15, 2024",25,income,,Persembahan,sparkasse,,No
+Persembahan,,"April 22, 2024",5,income,,Persembahan,sparkasse,,No
+Persembahan,,"April 27, 2024",109,income,,Persembahan,paypal,,No
+Persembahan,,"April 29, 2024",30,income,,Persembahan,sparkasse,,No
+Persembahan Offline,,"May 1, 2024",5,income,,Persembahan,paypal,,No
+"Persembahan ",,"May 1, 2024",2,income,,Persembahan,paypal,,No
+Tiket Baptis Victor,,"May 5, 2024",-72.89,expense,,Other,paypal,,No
+Persembahan,,"May 6, 2024",20,income,,Persembahan,sparkasse,,No
+Spende Praktek Love 2.0,,"May 11, 2024",85,income,,Other,paypal,,No
+Praktek Love 2.0,,"May 12, 2024",110,income,,Other,paypal,,No
+Persembahan,,"May 13, 2024",3,income,,Persembahan,sparkasse,,No
+"Persembahan ",,"May 21, 2024",2,income,,Persembahan,sparkasse,,No
+Persembahan,,"May 25, 2024",98.03,income,,Persembahan,paypal,,No
+Kue ulang tahun 25.05.24,,"May 27, 2024",-15.98,expense,,Makan,paypal,PIC: Aldi,No
+Persembahan,,"May 27, 2024",45,income,,Persembahan,sparkasse,,No
+Konsumsi ibadah 13.04.24,,"May 28, 2024",-62.04,expense,,Makan,paypal,"PIC: Wisnu, Aldi",No
+Perpuluhan,,"May 29, 2024",150,income,,Perpuluhan,sparkasse,,No
+Persembahan,,"June 1, 2024",140,income,,Persembahan,paypal,,No
+Uang Pendeta,,"June 3, 2024",-400,expense,,Pendeta,sparkasse,,No
+Konsumsi ibadah 26.05.24,2152447.jpg,"June 5, 2024",-44.88,expense,,Makan,paypal,PIC: Reggy,No
+Einzahlung tiket transport BCP,,"June 6, 2024",48.3,income,,Other,paypal,Reggy,No
